@@ -3,6 +3,10 @@
         flex-direction: column;
     }
 
+    .max-width {
+        width: 100vw;
+    }
+
     .nav-left {
         flex-direction: column;
         text-align: center;
