@@ -79,4 +79,8 @@
     .home-articles-container-recommend{
         flex-direction: column;
     }
+
+    .form-box input , textarea {
+        width: 70vw; 
+    }
 }
