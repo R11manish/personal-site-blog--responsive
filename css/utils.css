@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+:root {
+    --main-bg-color: brown;
+    --font1: font-family: 'Balsamiq Sans', cursive;
+    --font2 : font-family: 'Roboto', sans-serif;
+    --mainfont : font-family: 'Patrick Hand', cursive;
+}
+
+.font1 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.font2 {
+    font-family: 'Roboto', sans-serif;
+}
+  
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 4px 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background: #3D5AFF;
+}
+
+
+.home-article-img img{
+    height: 200px;
+    width: auto;
+    padding : 5px 5px;
+    margin: 5px 5px;
+}

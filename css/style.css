@@ -1,0 +1,160 @@
+* {
+     margin:  0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.navigation {
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #3D5AFF;
+    padding: 10px 10px;
+}
+
+.nav-left {
+    font-size: 25px;
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+}
+
+.nav-left span {
+    font-weight: bold;
+    color: white;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin : 0 77px;
+
+}
+
+.nav-left ul li{
+    list-style: none;
+    font-family: var(--font2);
+}
+
+
+.nav-left ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 14px;
+    color: #FFFFFF;
+}
+
+.nav-left ul li a:hover{
+    border: 2px solid #3D5AFF;
+    color :#3D5AFF;
+    font-weight: bolder;
+    background: #FFFFFF;
+    margin: 0 2px 0 2px;
+    border-radius: 10%;
+    padding: 0 8px;
+}
+
+.form-input{
+    padding: 0 11px;
+    font-size:16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+/* 
+intoduction content section starts from here onwards */
+.content{
+    display: flex;
+   
+    background-color: #FAFAFA;
+    padding: 12px;
+}
+
+.content-left {
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img{
+    height: 355px;
+    width: auto;
+    border: 2px solid #3D5AFF;
+    border-radius: 40%;
+    margin: 25px auto;
+    display: flex;
+   
+}
+
+
+/* artilces content section starts from here onwards */
+
+.home-articles {
+    background-color: #f4f6fd;
+    position: relative;
+}
+
+
+
+.year-box h3{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top :20px;
+    left : 40px;
+    font-size: 20px;
+}
+
+.article-sort {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top : 50px;
+    left : 40px;
+}
+
+.article-sort div {
+    margin: 10px 0;
+}
+
+.home-articles-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home-article-content a{
+    text-decoration: none;
+}
+
+.home-article {
+    width: 70vw;
+    display: flex;
+    padding: 20px;
+    margin: 15px;
+    background-color: #ffffff;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 0 20px;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
